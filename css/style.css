@@ -1,0 +1,48 @@
+/* .module {
+    --x: 0;
+    --y: 0;
+    background-image: url(https://media.istockphoto.com/photos/texture-dark-concrete-floor-picture-id621925576?k=6&m=621925576&s=612x612&w=0&h=H4rph08J2vSJz_crupTLvHf5OKW0olvoRJzaAK37Yhg=);
+    background-size: 200vh;
+    background-repeat: round;
+    background-position: var(--x) var(--y);
+    width: 300%;
+    height: 300%;
+    border: 1px solid white;
+} */
+
+.page {
+    background: radial-gradient(#666, #222);
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(194, 192, 192);
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 640px;
+    height: 640px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* grid-template-rows: repeat(8, 1fr); */
+}
+
+#pawn {
+    padding: 10px;
+    opacity: 0.2;
+    width: 7vw;
+    height: 10vh;
+}

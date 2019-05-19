@@ -1,0 +1,1 @@
+var pawn = `<img id="pawn" src="./images/pawn.png" alt="image" onmousedown="mousedown()" onmouseup="resetImage();" onmouseleave="resetImage();" />`
